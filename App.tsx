@@ -4,8 +4,9 @@ import { WebView } from "react-native-webview"
 
 const App = () => {
     return (
-        <View style={{ flex: 1, backgroundColor: "red" }}>
-            <WebView source={{ uri: "https://gymagochi.nandoburgos.dev" }} textZoom={100} originWhitelist={["*"]} />
+        <View style={{ flex: 1 }}>
+            <StatusBar style="light" />
+            <WebView source={{ uri: "https://gymagotchi.nandoburgos.dev" }} textZoom={100} originWhitelist={["*"]} />
         </View>
     )
 }

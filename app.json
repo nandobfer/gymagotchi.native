@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "gymagotchi.native",
-    "slug": "gymagotchi.native",
+    "name": "Gymagotchi",
+    "slug": "gymagotchinative",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nandoburgos.gymagotchinative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9f9bc4e4-b290-43eb-b774-b25936e77f02"
+      }
     }
   }
 }
