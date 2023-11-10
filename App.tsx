@@ -42,8 +42,8 @@ const App = () => {
                 {!loaded && <Loading progress={loadingProgess} />}
                 <WebView
                     ref={webViewRef}
-                    source={{ uri: "http://192.168.18.5:5173/" }}
-                    // source={{ uri: "https://gymagotchi.nandoburgos.dev" }}
+                    // source={{ uri: "http://192.168.18.5:5173/" }}
+                    source={{ uri: "https://gymagotchi.nandoburgos.dev" }}
                     textZoom={100}
                     originWhitelist={["*"]}
                     onLoadProgress={({ nativeEvent }) => setLoadingProgess(nativeEvent.progress)}
